@@ -27,3 +27,5 @@ We can run the VQE algorithm to minimize the energy of the Hamiltonian with resp
 
 Measure the energy:
 After running the VQE algorithm, we can measure the energy of the final state using the expectation value of the Hamiltonian. The energy of the ground state will be the minimum value obtained from the measurements.
+
+The complete code to prepare the ground state of a Heisenberg spin-1/2 Hamiltonian on a kagome lattice using IBM Quantum's 16-qubit ibmq_guadalupe system and compute the ground state energy with the highest fidelity using VQE is as follows in main.py
